@@ -22,7 +22,7 @@ export class DbzService {
     constructor(){}
 
     agregarPersonaje(nuevo:Personaje){
-        this._personajes.push(nuevo)
+        this._personajes.push(nuevo);
     }
 
 }
